@@ -104,6 +104,9 @@ body {
 }
 
 .logo {
+    display: flex;
+    align-items: center;
+    gap: 12px; /* Espaço entre a foto e o texto */
     color: var(--azul-profundo);
     font-size: 1.8rem;
     font-weight: 800;
@@ -111,6 +114,14 @@ body {
 
 .logo span {
     color: var(--azul-royal);
+}
+
+.logo-img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid var(--azul-royal);
 }
 
 .nav-links {
