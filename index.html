@@ -1,11 +1,164 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Luiz Felipe | Desenvolvedor & Analista</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+
+    <header class="navbar">
+        <div class="container nav-container">
+            <h1 class="logo">Luiz<span>Felipe</span></h1>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#experiencia">Trajetória</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="sobre" class="hero container">
+            <div class="hero-text">
+                <h2>Olá, eu sou o <span class="destaque">Luiz Felipe</span></h2>
+                <h3>Estudante de Análise e Desenvolvimento de Sistemas</h3>
+                <p>
+                    Desenvolvedor focado em criar soluções elegantes e sistemas eficientes. Transformo problemas complexos em interfaces simples e códigos bem estruturados. Apaixonado por tecnologia, engenharia de software e inovação contínua.
+                </p>
+                <a href="#contato" class="btn-primario">Vamos conversar?</a>
+            </div>
+            <div class="hero-img">
+                <img src="img/perfil.jpg" alt="Luiz Felipe" class="img-responsiva avatar">
+            </div>
+        </section>
+
+        <section id="habilidades" class="secao-clara">
+            <div class="container">
+                <h2 class="titulo-secao">Minhas Habilidades</h2>
+                <div class="skills-wrapper">
+                    <ul class="skills-list">
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>Git & GitHub</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="projetos" class="container secao-padding">
+            <h2 class="titulo-secao">Projetos</h2>
+            <div class="grid-projetos">
+                <article class="card-projeto">
+                    <div class="card-img-wrapper">
+                        <img src="img/reliquias_do_asfalto_logo_3.jpg" alt="Portfólio Web" class="img-responsiva">
+                    </div>
+                    <div class="card-info">
+                        <h3>Reliquias do Asfalto</h3>
+                        <p>
+                            Projeto Reliquias do Asfalto, feito no Figma, onde foi realizado em grupo com mais 3 colegas. Esse projeto visa reunir várias distribuidoras de peças de carros que geralmente são dificeis de encontrar.
+                        </p>
+                        <a href="#" class="link-projeto">Ver Detalhes &rarr;</a>
+                    </div>
+                </article>
+                
+                <article class="card-projeto">
+                    <div class="card-img-wrapper">
+                        <img src="img/projeto1.jpg" alt="Interface de Sistema" class="img-responsiva">
+                    </div>
+                    <div class="card-info">
+                        <h3>Sistema de Gestão Comercial</h3>
+                        <p>
+                            Plataforma para controle de vendas e análise de dados em tempo real.
+                        </p>
+                        <a href="#" class="link-projeto">Ver Detalhes &rarr;</a>
+                    </div>
+                </article>
+
+                <article class="card-projeto">
+                    <div class="card-img-wrapper">
+                        <img src="img/projeto2.jpg" alt="Aplicativo Mobile" class="img-responsiva">
+                    </div>
+                    <div class="card-info">
+                        <h3>Delivery App</h3>
+                        <p>
+                            Interface responsiva para pedidos de restaurante com foco na experiência do usuário.
+                        </p>
+                        <a href="#" class="link-projeto">Ver Detalhes &rarr;</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="experiencia" class="secao-clara">
+            <div class="container secao-padding">
+                <h2 class="titulo-secao">Trajetória e Formação</h2>
+                <div class="tabela-container">
+                    <table class="tabela-moderna">
+                        <thead>
+                            <tr>
+                                <th>Período</th>
+                                <th>Instituição / Atividade</th>
+                                <th>Descrição do Papel</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>2025 - Atual</td>
+                                <td><strong>IFPI</strong></td>
+                                <td>Graduação em Análise e Desenvolvimento de Sistemas</td>
+                            </tr>
+                            <tr>
+                                <td>2025 - Atual</td>
+                                <td><strong>Empreendedorismo</strong></td>
+                                <td>Gestão estratégica e tecnológica de negócio no setor alimentício.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="container secao-padding">
+            <h2 class="titulo-secao">Entre em Contato</h2>
+            <div class="contato-wrapper">
+                <form action="#" method="POST" class="form-moderno">
+                    <div class="input-group">
+                        <label for="nome">Seu Nome</label>
+                        <input type="text" id="nome" name="nome" placeholder="Ex: João Silva" required>
+                    </div>
+                    
+                    <div class="input-group">
+                        <label for="email">Seu E-mail</label>
+                        <input type="email" id="email" name="email" placeholder="contato@exemplo.com" required>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="mensagem">Sua Mensagem</label>
+                        <textarea id="mensagem" name="mensagem" rows="5" placeholder="Como posso ajudar o seu projeto?" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-primario btn-full">Enviar Mensagem</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <div class="container">
+            <p>
+                &copy; 2026 Luiz Felipe. Construído com dedicação e muito café.
+            </p>
+            <p>
+                <small>Trabalho da disciplina de Programação para a Internet I</small>
+            </p>
+        </div>
+    </footer>
+
 </body>
 </html>
