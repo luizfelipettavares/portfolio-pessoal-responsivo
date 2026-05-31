@@ -23,14 +23,14 @@ Estudante de Tecnologia / Analista de Sistemas
 * Criar um visual moderno (com sombras flutuantes, bordas arredondadas e pílulas de habilidades) mantendo a restrição de usar apenas CSS puro.
 
 ## 🎨 Paleta de Cores
-* `#0a192f` (Azul Profundo - Textos principais e Rodapé)
-* `#2563eb` (Azul Royal - Botões, Destaques e Links)
-* `#eff6ff` (Azul Claro - Fundo suave das seções de contraste)
-* `#ffffff` (Branco Puro - Fundo principal e Cards de projeto)
+* `#0A192F` (Azul Profundo - Textos principais e Rodapé)
+* `#2563EB` (Azul Royal - Botões, Destaques e Links)
+* `#EFF6FF` (Azul Claro - Fundo suave das seções de contraste)
+* `#FFFFFF` (Branco Puro - Fundo principal e Cards de projeto)
 
 ## 👤 Autor
 **Luiz Felipe** - Estudante de Análise e Desenvolvimento de Sistemas (IFPI).
 
 ## 🔗 Links do Projeto
-* **GitHub Pages:** [Insira o seu link do GitHub Pages aqui]
+* **GitHub Pages:** [https://luizfelipettavares.github.io/portfolio-pessoal-responsivo/]
 * **Vídeo de Apresentação:** [Insira o link do seu vídeo aqui]
