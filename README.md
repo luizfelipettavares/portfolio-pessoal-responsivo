@@ -32,5 +32,5 @@ Estudante de Tecnologia / Analista de Sistemas
 **Luiz Felipe** - Estudante de Análise e Desenvolvimento de Sistemas (IFPI).
 
 ## 🔗 Links do Projeto
-* **GitHub Pages:** [https://luizfelipettavares.github.io/portfolio-pessoal-responsivo/]
-* **Vídeo de Apresentação:** [Insira o link do seu vídeo aqui]
+* **GitHub Pages:** https://luizfelipettavares.github.io/portfolio-pessoal-responsivo/
+* **Vídeo de Apresentação:** 
