@@ -10,17 +10,17 @@ html {
 }
 
 :root {
-    --azul-profundo: #0a192f;
-    --azul-royal: #2563eb;
-    --azul-hover: #1d4ed8;
-    --azul-claro: #eff6ff;
-    --azul-borda: #bfdbfe;
+    --azul-profundo: #0A192F;
+    --azul-royal: #2563EB;
+    --azul-hover: #1D4ED8;
+    --azul-claro: #EFF6FF;
+    --azul-borda: #BFDBFE;
     --texto-corpo: #475569;
-    --branco: #ffffff;
+    --branco: #FFF;
 }
 
 body {
-    background-color: #fafbfc;
+    background-color: #FAFBFC;
     color: var(--texto-corpo);
     line-height: 1.7;
 }
@@ -89,7 +89,7 @@ body {
 
 .navbar {
     background-color: rgba(255, 255, 255, 0.95);
-    backdrop-filter: blur(10px); /* Efeito de vidro moderno */
+    backdrop-filter: blur(10px);
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -106,7 +106,7 @@ body {
 .logo {
     display: flex;
     align-items: center;
-    gap: 12px; /* Espaço entre a foto e o texto */
+    gap: 12px;
     color: var(--azul-profundo);
     font-size: 1.8rem;
     font-weight: 800;
@@ -322,7 +322,7 @@ body {
 }
 
 .tabela-moderna tbody tr:hover {
-    background-color: #f8faff;
+    background-color: #F8FAFF;
 }
 
 .contato-wrapper {
@@ -353,12 +353,12 @@ body {
 .input-group input, .input-group textarea {
     width: 100%;
     padding: 15px;
-    border: 2px solid #e2e8f0;
+    border: 2px solid #E2E8F0;
     border-radius: 8px;
     font-size: 1rem;
     color: var(--texto-corpo);
     transition: border-color 0.3s, box-shadow 0.3s;
-    background-color: #f8fafc;
+    background-color: #F8FAFC;
 }
 
 .input-group input:focus, .input-group textarea:focus {

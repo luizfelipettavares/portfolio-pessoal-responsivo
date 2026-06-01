@@ -33,4 +33,4 @@ Estudante de Tecnologia / Analista de Sistemas
 
 ## 🔗 Links do Projeto
 * **GitHub Pages:** https://luizfelipettavares.github.io/portfolio-pessoal-responsivo/
-* **Vídeo de Apresentação:** 
+* **Vídeo de Apresentação:** https://www.loom.com/share/acfcda2a4d4e4179a756f71bf395e502
